@@ -44,8 +44,13 @@ code/
   - Temporal features (time, phase indicators)  
   - Log transformation for skewed variables  
 - **Best Models:**  
-  - Vaccine Uptake → Neural Network (R² = 0.80)  
-  - COVID Positivity → XGBoost (R² = 0.92)
+  - Vaccine Uptake → Neural Network
+  - COVID Positivity → XGBoost
+   
+  | Target Variable | Model          | R²   | RMSE | MAE  |
+  |------------------|----------------|------|------|------|
+  | Vaccine Uptake   | Neural Network | 0.80 | 2.97 | 2.17 |
+  | COVID Positivity | XGBoost        | 0.92 | 1.61 | 1.14 |
 
 ### 3. Clustering and Policy Insights  
 - **Clustering Method:** K-Means (k=3)  
